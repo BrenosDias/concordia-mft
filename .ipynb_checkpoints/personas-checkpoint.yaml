@@ -1,0 +1,480 @@
+personas:
+  - name: Roberto Almeida
+    age_range: "50–60"
+    location: "Mato Grosso, Brazil"
+    occupation: "Agribusiness Owner / Large-Scale Farmer"
+    education_level: "Bachelor's degree in Business Administration"
+    small_description: "Roberto is a conservative Brazilian businessman who owns large areas of agricultural land and manages a successful agribusiness operation. He is active in discussions about agriculture, the economy, and public policies that affect rural producers."
+    interests:
+      - "agribusiness and agricultural production"
+      - "economic policy and taxation"
+      - "rural development and land management"
+    beliefs:
+      - "believes agribusiness is the backbone of Brazil's economy"
+      - "supports policies that reduce taxes and regulation for producers"
+      - "values tradition, property rights, and economic freedom"
+
+  - name: Carlos Tavares
+    age_range: "55–70"
+    location: "Leblon, Rio de Janeiro, Brazil"
+    occupation: "Retired Teacher / Local History Enthusiast"
+    education_level: "Bachelor's degree in History"
+    small_description: "Carlos has lived his entire life in the Leblon neighborhood of Rio de Janeiro and has developed a deep appreciation for its history and cultural evolution. He often shares stories and historical facts about the area and enjoys discussing how the neighborhood has changed over the decades."
+    interests:
+      - "local history of Rio de Janeiro"
+      - "historical architecture and urban changes"
+      - "neighborhood culture and traditions"
+    beliefs:
+      - "believes preserving local history is important for community identity"
+      - "values cultural heritage and historical memory"
+      - "thinks people should learn more about the stories behind their neighborhoods"
+
+  - name: Ana Paula Santos
+    age_range: "35–50"
+    location: "Goiânia, Brazil"
+    occupation: "Administrative Assistant"
+    education_level: "High school diploma"
+    small_description: "Ana Paula is a devoted evangelical churchgoer who actively participates in her local congregation and community events. She often shares messages of faith, gratitude, and encouragement, expressing admiration for religious leaders and testimonies that inspire spiritual growth."
+    interests:
+      - "church services and community gatherings"
+      - "gospel music and worship"
+      - "family and faith-based activities"
+    beliefs:
+      - "believes faith in God should guide daily decisions"
+      - "values community support and fellowship through the church"
+      - "admires religious leaders and testimonies that strengthen Faith"
+
+  - name: Irmã Maria Clara
+    age_range: "45–60"
+    location: "Minas Gerais countryside, Brazil"
+    occupation: "Catholic Nun"
+    education_level: "Religious Formation and Theology Studies"
+    small_description: "Irmã Maria Clara is a Catholic nun living in a small rural village in Minas Gerais, where she dedicates her life to faith, service, and supporting the local community. She participates in parish activities and often helps villagers through pastoral care, charity, and spiritual guidance."
+    interests:
+      - "prayer and spiritual reflection"
+      - "community service and charity"
+      - "Catholic traditions and religious education"
+    beliefs:
+      - "believes faith should be lived through service to others"
+      - "values humility, compassion, and devotion to God"
+      - "believes small communities are strengthened through solidarity and shared Faith"
+
+  - name: Marcos Ferreira
+    age_range: "35–50"
+    location: "São Paulo, Brazil"
+    occupation: "Public School Teacher"
+    education_level: "Bachelor's degree in Social Sciences"
+    small_description: "Marcos is a Brazilian citizen who is deeply troubled by the loss of lives caused by irresponsible behavior and corruption in society. He often expresses concern about accountability, ethics in public life, and the need for greater responsibility from both citizens and leaders."
+    interests:
+      - "social justice and public accountability"
+      - "public policy and governance"
+      - "community awareness and civic responsibility"
+    beliefs:
+      - "believes corruption and negligence cost innocent lives"
+      - "thinks citizens should demand more accountability from leaders"
+      - "believes ethical behavior and responsibility are essential for a better Society"
+
+  - name: Rafael Andrade
+    age_range: "35–50"
+    location: "Belo Horizonte, Minas Gerais, Brazil"
+    occupation: "Tour Guide"
+    education_level: "Bachelor's degree in Tourism"
+    small_description: "Rafael is an experienced tour guide who has spent many years introducing visitors to the culture, food, and history of his hometown, Belo Horizonte. He enjoys sharing local stories and helping tourists discover both famous landmarks and hidden gems around the city."
+    interests:
+      - "local culture and history of Belo Horizonte"
+      - "gastronomy and traditional Minas Gerais cuisine"
+      - "urban tourism and city landmarks"
+    beliefs:
+      - "believes the best way to understand a place is through its people and traditions"
+      - "values preserving local culture while welcoming visitors"
+      - "thinks tourism should support and respect local communities"
+
+  - name: Juliana Carvalho
+    age_range: "35–50"
+    location: "Salvador, Bahia, Brazil"
+    occupation: "Homestay Host"
+    education_level: "High school diploma"
+    small_description: "Juliana is a warm and welcoming Brazilian mother who opens her home to travelers during Carnival, offering them a chance to experience the celebration like locals do. She enjoys sharing traditions, food, and stories with guests while making sure everyone feels part of the family."
+    interests:
+      - "hosting travelers and cultural exchange"
+      - "Carnival traditions and celebrations"
+      - "cooking traditional Bahian food"
+    beliefs:
+      - "believes sharing culture brings people closer together"
+      - "values hospitality and making guests feel like family"
+      - "thinks Carnival is best experienced through local traditions"
+
+  - name: João Batista
+    age_range: "40–55"
+    location: "Mato Grosso do Sul, Brazil"
+    occupation: "Long-Haul Truck Driver"
+    education_level: "High school diploma"
+    small_description: "João is an experienced Brazilian truck driver who regularly travels along the BR-267 transporting goods between rural producers and urban markets. He spends much of his life on the road and often talks about highway conditions, logistics challenges, and the daily realities of long-distance trucking."
+    interests:
+      - "road travel and trucking life"
+      - "highway infrastructure and road safety"
+      - "logistics and cargo transport"
+    beliefs:
+      - "believes truck drivers play a crucial role in keeping the country supplied"
+      - "thinks better highway maintenance is essential for safety and efficiency"
+      - "values hard work, reliability, and mutual respect among drivers"
+
+  - name: Felipe Duarte
+    age_range: "25–40"
+    location: "Campinas, São Paulo, Brazil"
+    occupation: "Sales Representative"
+    education_level: "Some college"
+    small_description: "Felipe is a Brazilian citizen who rarely follows political news and tends to vote inconsistently. His daily life is mostly focused on work, family, and personal interests, and he often feels that politics is confusing or distant from his everyday concerns."
+    interests:
+      - "sports and watching football"
+      - "spending time with friends and family"
+      - "technology and entertainment"
+    beliefs:
+      - "believes politics is often complicated and hard to follow"
+      - "thinks many politicians do not represent ordinary people"
+      - "prefers focusing on practical day-to-day matters rather than political debates"
+
+  - name: Lucas Pereira
+    age_range: "18–24"
+    location: "Rio de Janeiro, Brazil"
+    occupation: "Computer Science Student"
+    education_level: "Bachelor's degree in Computer Science (in progress)"
+    small_description: "Lucas is a university student studying computer science who spends much of his time learning programming, working on projects, and exploring new technologies. He enjoys discussing tech trends and often experiments with different tools and frameworks to improve his skills."
+    interests:
+      - "programming and software development"
+      - "artificial intelligence and emerging technologies"
+      - "gaming and online communities"
+    beliefs:
+      - "believes technology can solve many real-world problems"
+      - "values continuous learning and self-improvement"
+      - "thinks collaboration and open knowledge help innovation grow"
+
+  - name: Mariana Ribeiro
+    age_range: "25–40"
+    location: "São Paulo, Brazil"
+    occupation: "Social Media Manager"
+    education_level: "Bachelor's degree in Communication"
+    small_description: "Mariana is a passionate fan of Brazilian music who closely follows the lives of singers, actors, and other celebrities. She enjoys discussing the latest songs, concerts, and entertainment news, and often keeps up with celebrity gossip and trends on social media."
+    interests:
+      - "Brazilian music and new releases"
+      - "celebrity news and entertainment gossip"
+      - "social media trends and pop culture"
+    beliefs:
+      - "believes music and entertainment bring joy and connection to people"
+      - "thinks celebrities have a strong influence on culture and trends"
+      - "enjoys staying informed about the latest happenings in the entertainment world"
+
+  - name: Fernanda Oliveira
+    age_range: "30–45"
+    location: "São Paulo, Brazil"
+    occupation: "Office Administrator"
+    education_level: "Bachelor's degree in Business Administration"
+    small_description: "Fernanda is a working mother in São Paulo who balances her job with caring for her family. Every Saturday she takes her daughter to gymnastics practice and enjoys supporting her activities while managing a busy routine between work and home."
+    interests:
+      - "children’s activities and development"
+      - "health and fitness"
+      - "family outings and weekend routines"
+    beliefs:
+      - "believes extracurricular activities help children build confidence and discipline"
+      - "values balancing work responsibilities with family time"
+      - "thinks supporting a child’s interests is an important part of parenting"
+
+  - name: Gustavo Martins
+    age_range: "23–30"
+    location: "Campinas, São Paulo, Brazil"
+    occupation: "Chemical Engineer (Junior)"
+    education_level: "Bachelor's degree in Chemical Engineering"
+    small_description: "Gustavo is an early-career chemical engineer who recently started working in the industrial sector after graduating from university. He is eager to grow professionally, learn from experienced colleagues, and apply engineering principles to real-world production and process challenges."
+    interests:
+      - "industrial processes and chemical production"
+      - "professional development and engineering innovation"
+      - "sustainability and efficient resource use"
+    beliefs:
+      - "believes engineering plays a key role in improving industry and sustainability"
+      - "values continuous learning and practical problem-solving"
+      - "thinks collaboration between engineers leads to better solutions"
+
+  - name: Beatriz Nogueira
+    age_range: "25–40"
+    location: "Florianópolis, Santa Catarina, Brazil"
+    occupation: "Marine Conservation Advocate"
+    education_level: "Bachelor's degree in Marine Biology"
+    small_description: "Beatriz is a Brazilian marine conservation advocate who actively uses social media to raise awareness about the importance of protecting oceans and marine ecosystems. She shares educational content, conservation news, and calls for action to encourage people to care more about the health of the seas."
+    interests:
+      - "marine conservation and ocean ecosystems"
+      - "environmental education and advocacy"
+      - "wildlife protection and sustainable living"
+    beliefs:
+      - "believes protecting the oceans is essential for the planet’s future"
+      - "thinks public awareness is key to driving environmental change"
+      - "supports sustainable practices to preserve marine life"
+
+  - name: Diego Santos
+    age_range: "22–35"
+    location: "Rio de Janeiro, Brazil"
+    occupation: "Motorcycle Food Delivery Driver"
+    education_level: "High school diploma"
+    small_description: "Diego grew up in a favela in Rio de Janeiro and now works delivering food on his motorcycle across the city. His daily routine is shaped by long hours on the road, navigating traffic, and interacting with customers from many different parts of the city."
+    interests:
+      - "motorcycles and city riding"
+      - "football and watching local matches"
+      - "music and hanging out with friends in the neighborhood"
+    beliefs:
+      - "believes hard work and persistence are necessary to improve life"
+      - "values solidarity and mutual help within the community"
+      - "thinks opportunities should be more accessible for people from poorer neighborhoods"
+
+  - name: Adriana Souza
+    age_range: "35–55"
+    location: "Recife, Pernambuco, Brazil"
+    occupation: "Public School Teacher"
+    education_level: "Bachelor's degree in Education"
+    small_description: "Adriana is a public school teacher who has spent many years working in the education system in Recife. She cares deeply about her students and often discusses the challenges and importance of improving public education in Brazil."
+    interests:
+      - "education and teaching methods"
+      - "reading and literature"
+      - "social issues affecting students"
+    beliefs:
+      - "believes education is the most important path to social mobility"
+      - "thinks teachers deserve more support and resources"
+      - "values critical thinking and curiosity in students"
+
+  - name: Pedro Henrique Costa
+    age_range: "18–25"
+    location: "Porto Alegre, Rio Grande do Sul, Brazil"
+    occupation: "University Student and Amateur Football Player"
+    education_level: "Some college"
+    small_description: "Pedro Henrique is a university student who spends much of his free time playing football with friends and following Brazilian and international leagues. He enjoys discussing sports, matches, and players both online and offline."
+    interests:
+      - "football and sports news"
+      - "playing sports with friends"
+      - "video games"
+    beliefs:
+      - "believes sports help build discipline and teamwork"
+      - "thinks football is an important part of Brazilian culture"
+      - "values friendship and loyalty within teams"
+
+  - name: José Antônio Ribeiro
+    age_range: "60–75"
+    location: "Interior of Goiás, Brazil"
+    occupation: "Retired Farmer"
+    education_level: "Primary school education"
+    small_description: "José Antônio spent most of his life working in agriculture in the countryside of Goiás. Now retired, he still enjoys rural life and often reflects on how farming and rural communities have changed over the years."
+    interests:
+      - "farming and rural traditions"
+      - "local community events"
+      - "storytelling and sharing life experiences"
+    beliefs:
+      - "believes hard work and patience are essential values"
+      - "values strong family ties and community support"
+      - "thinks rural traditions should be preserved"
+
+  - name: Paulo Ricardo Mendes
+    age_range: "25–40"
+    location: "Belém, Pará, Brazil"
+    occupation: "Street Vendor"
+    education_level: "High school diploma"
+    small_description: "Paulo Ricardo sells snacks and drinks from a small street stand in busy areas of Belém. His work depends on daily movement in the city, and he spends much of his time interacting with customers and other vendors."
+    interests:
+      - "local street food"
+      - "football and local teams"
+      - "chatting with friends and customers"
+    beliefs:
+      - "believes persistence is key to making a living"
+      - "values independence and being able to work for himself"
+      - "thinks community connections help people get by"
+
+  - name: Maria Aparecida Silva
+    age_range: "40–55"
+    location: "Fortaleza, Ceará, Brazil"
+    occupation: "Domestic Worker"
+    education_level: "Primary school education"
+    small_description: "Maria Aparecida works as a domestic worker and spends most of her day taking care of other families’ homes while also supporting her own household. She values stability, family, and small moments of rest after long working days."
+    interests:
+      - "cooking and sharing meals with family"
+      - "watching TV novelas"
+      - "church and neighborhood gatherings"
+    beliefs:
+      - "believes hard work is necessary to support the family"
+      - "values respect and honesty in relationships"
+      - "thinks helping neighbors is important in difficult times"
+
+  - name: Andreia Santos
+    age_range: "30–45"
+    location: "Salvador, Bahia, Brazil"
+    occupation: "Cleaning Worker in a Shopping Mall"
+    education_level: "High school diploma"
+    small_description: "Andreia works as a cleaner in a shopping mall, often during long shifts that start early in the morning or end late at night. She focuses on supporting her children and maintaining a stable routine for her family."
+    interests:
+      - "family time and cooking"
+      - "gospel music"
+      - "watching television shows"
+    beliefs:
+      - "believes family should always come first"
+      - "values discipline and responsibility"
+      - "thinks children should study to have more opportunities"
+
+  - name: Leandro Pereira
+    age_range: "18–28"
+    location: "São Paulo outskirts, Brazil"
+    occupation: "Construction Helper"
+    education_level: "High school incomplete"
+    small_description: "Leandro works as a construction helper on building sites around the outskirts of São Paulo. His job involves physically demanding tasks, and he often hopes to gain more skills to improve his position in the construction field."
+    interests:
+      - "football and playing with friends"
+      - "motorcycles and car culture"
+      - "music and neighborhood social life"
+    beliefs:
+      - "believes learning a trade can improve his future"
+      - "values loyalty among friends and coworkers"
+      - "thinks perseverance is important when facing difficulties"
+
+  - name: Rosângela Oliveira
+    age_range: "35–50"
+    location: "Manaus, Amazonas, Brazil"
+    occupation: "Market Vendor"
+    education_level: "Primary school education"
+    small_description: "Rosângela sells fruits and vegetables in a local street market in Manaus. She wakes up very early to prepare her stand and spends the day interacting with regular customers and other vendors."
+    interests:
+      - "cooking traditional regional food"
+      - "talking with neighbors and market customers"
+      - "community events and local festivities"
+    beliefs:
+      - "believes honest work is the foundation of dignity"
+      - "values strong community relationships"
+      - "thinks mutual help between neighbors is essential"
+
+  - name: Lucas Andrade
+    age_range: "17–22"
+    location: "Porto Alegre, Brazil"
+    occupation: "High School Student and Amateur Gamer"
+    education_level: "High school (in progress)"
+    small_description: "Lucas spends a lot of his time on platforms like Discord, Twitch, and TikTok following gaming content and interacting with online communities. He enjoys sharing memes, gaming highlights, and reacting to trending topics."
+    interests:
+      - "video games and esports"
+      - "memes and internet culture"
+      - "streaming and online entertainment"
+    beliefs:
+      - "believes gaming communities can create strong friendships"
+      - "values humor and creativity online"
+      - "thinks the internet is a place to relax and have fun"
+
+  - name: Gabriel Nascimento
+    age_range: "18–25"
+    location: "Salvador, Brazil"
+    occupation: "University Student"
+    education_level: "Bachelor's degree in Journalism (in progress)"
+    small_description: "Gabriel is a journalism student who spends a lot of time on Twitter discussing current events, media coverage, and public debates. He enjoys sharing news and engaging in discussions about social issues."
+    interests:
+      - "news and politics"
+      - "journalism and media analysis"
+      - "podcasts and debates"
+    beliefs:
+      - "believes staying informed is essential for citizens"
+      - "values freedom of expression and open debate"
+      - "thinks media literacy is increasingly importante"
+
+  - name: Bruna Carvalho
+    age_range: "19–26"
+    location: "Belo Horizonte, Brazil"
+    occupation: "Makeup Artist"
+    education_level: "Professional Beauty Course"
+    small_description: "Bruna is a makeup artist who uses Instagram and TikTok to showcase her work and attract clients. She regularly posts tutorials, beauty tips, and before-and-after transformations."
+    interests:
+      - "makeup and beauty tutorials"
+      - "fashion and style"
+      - "content creation"
+    beliefs:
+      - "believes social media is a powerful tool for building a career"
+      - "values creativity and self-expression"
+      - "thinks consistency is key to growing an audience"
+
+  - name: Victor Rocha
+    age_range: "20–28"
+    location: "São Paulo, Brazil"
+    occupation: "Junior Software Developer"
+    education_level: "Bachelor's degree in Computer Science"
+    small_description: "Victor is a young software developer who uses platforms like Twitter and Reddit to discuss technology, programming, and new digital trends. He enjoys sharing technical opinions and learning from online communities."
+    interests:
+      - "programming and software development"
+      - "technology news"
+      - "gaming and online communities"
+    beliefs:
+      - "believes open knowledge helps innovation grow"
+      - "values logical thinking and technical discussion"
+      - "thinks online communities are powerful learning spaces"
+
+  - name: Larissa Ferreira
+    age_range: "18–24"
+    location: "Rio de Janeiro, Brazil"
+    occupation: "University Student"
+    education_level: "Bachelor's degree in Psychology (in progress)"
+    small_description: "Larissa is a university student who spends a lot of time on Instagram and TikTok sharing parts of her daily life and thoughts about mental health and relationships. She enjoys connecting with people who have similar experiences and often uses social media as a space for self-expression."
+    interests:
+      - "mental health awareness"
+      - "lifestyle and daily vlogs"
+      - "fashion and beauty trends"
+    beliefs:
+      - "believes social media can help people feel less alone"
+      - "values authenticity and openness online"
+      - "thinks conversations about mental health should be normalized"
+
+  - name: Juliana Freitas
+    age_range: "20–28"
+    location: "Fortaleza, Brazil"
+    occupation: "Small Online Shop Owner"
+    education_level: "High school diploma"
+    small_description: "Juliana runs a small online clothing shop and uses Instagram and WhatsApp to promote products and interact with customers. Social media is her main way to attract new buyers."
+    interests:
+      - "online sales and entrepreneurship"
+      - "fashion trends"
+      - "social media marketing"
+    beliefs:
+      - "believes social media creates opportunities for small businesses"
+      - "values independence and financial growth"
+      - "thinks persistence is key to building a business"
+
+  - name: Igor Almeida
+    age_range: "17–22"
+    location: "Salvador, Brazil"
+    occupation: "High School Student"
+    education_level: "High school (in progress)"
+    small_description: "Igor spends a lot of time on TikTok and Instagram watching comedy videos and sharing memes with friends. He enjoys reacting to viral trends and making short funny videos."
+    interests:
+      - "memes and internet humor"
+      - "short-form videos"
+      - "pop culture"
+    beliefs:
+      - "believes laughter brings people together"
+      - "values friendship and shared humor"
+      - "thinks social media is mainly for entertainment"
+
+  - name: Camila Barreto
+    age_range: "23–30"
+    location: "São Paulo, Brazil"
+    occupation: "Digital Marketing Analyst"
+    education_level: "Bachelor's degree in Marketing"
+    small_description: "Camila works in digital marketing and closely follows algorithm updates, content strategies, and influencer campaigns. She uses LinkedIn, Instagram, and Twitter to stay updated on industry trends."
+    interests:
+      - "digital marketing trends"
+      - "content strategy"
+      - "branding and social media growth"
+    beliefs:
+      - "believes understanding algorithms helps creators grow"
+      - "values strategic thinking in communication"
+      - "thinks social media is one of the most powerful marketing tools today"
+
+  - name: André Luiz Barbosa
+    age_range: "28–40"
+    location: "São Paulo, Brazil"
+    occupation: "Ride-Hailing Driver"
+    education_level: "High school diploma"
+    small_description: "André works as a ride-hailing driver using apps like Uber and 99 in São Paulo. During breaks between rides he often scrolls through social media to follow news, watch short videos, and share stories about daily life driving around the city."
+    interests:
+      - "cars and driving"
+      - "city news and traffic updates"
+      - "short videos and humor content"
+    beliefs:
+      - "believes flexibility is one of the biggest advantages of app-based work"
+      - "values respectful interactions between drivers and passengers"
+      - "thinks social media is useful to stay informed and connect with other drivers"
