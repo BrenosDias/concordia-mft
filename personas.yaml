@@ -179,21 +179,6 @@ personas:
       - "values balancing work responsibilities with family time"
       - "thinks supporting a child’s interests is an important part of parenting"
 
-  - name: Gustavo Martins
-    age_range: "23–30"
-    location: "Campinas, São Paulo, Brazil"
-    occupation: "Chemical Engineer (Junior)"
-    education_level: "Bachelor's degree in Chemical Engineering"
-    small_description: "Gustavo is an early-career chemical engineer who recently started working in the industrial sector after graduating from university. He is eager to grow professionally, learn from experienced colleagues, and apply engineering principles to real-world production and process challenges."
-    interests:
-      - "industrial processes and chemical production"
-      - "professional development and engineering innovation"
-      - "sustainability and efficient resource use"
-    beliefs:
-      - "believes engineering plays a key role in improving industry and sustainability"
-      - "values continuous learning and practical problem-solving"
-      - "thinks collaboration between engineers leads to better solutions"
-
   - name: Beatriz Nogueira
     age_range: "25–40"
     location: "Florianópolis, Santa Catarina, Brazil"
@@ -478,3 +463,138 @@ personas:
       - "believes flexibility is one of the biggest advantages of app-based work"
       - "values respectful interactions between drivers and passengers"
       - "thinks social media is useful to stay informed and connect with other drivers"
+
+  - name: "Patrícia Almeida"
+    age_range: "40–55"
+    location: "Porto Alegre, Brazil"
+    occupation: "Store Owner"
+    education_level: "High school diploma" 
+    small_description: "Patrícia runs a small business and often posts about hard work, taxes, and fairness. She tends to believe that everyone should carry their own burdens rather than rely on others."
+    interests:
+    - "small business"
+    - "family finances"
+    - "local news"
+    beliefs:
+    - "believes each person is primarily responsible for their own life"
+    - "values fairness through equal rules rather than special help"
+    - "thinks resilience is more useful than seeking sympathy"
+
+  - name: "Leandro Silva"
+    age_range: "22–32"
+    location: "Belo Horizonte, Brazil"
+    occupation: "Gym Instructor"
+    education_level: "Technical certification"
+    small_description: "Leandro shares motivational content focused on discipline, strength, and self-improvement. He often frames adversity as a challenge that builds character."
+    interests:
+    - "fitness"
+    - "motivation"
+    - "sports"
+    beliefs:
+    - "believes struggle makes people stronger"
+    - "values discipline more than comfort"
+    - "thinks people often complain instead of acting"
+
+  - name: "Ricardo Menezes"
+    age_range: "35–50"
+    location: "São Paulo, Brazil"
+    occupation: "Security Company Owner"
+    education_level: "Bachelor's degree in Business Administration"
+    small_description: "Ricardo is highly active on social media, where he frequently comments on crime, politics, and national identity. He believes society has become too permissive and argues that stronger authority is necessary to restore order."
+    interests:
+    - "public security"
+    - "political commentary"
+    - "national history"
+    beliefs:
+    - "believes criminal penalties should be much harsher"
+    - "values authority, discipline, and obedience to rules"
+    - "thinks excessive freedoms have weakened society"
+
+  - name: "Patrícia Vasconcelos"
+    age_range: "40–55"
+    location: "Curitiba, Brazil"
+    occupation: "Lawyer"
+    education_level: "Bachelor's degree in Law"
+    small_description: "Patrícia frequently engages in online debates about institutions, family values, and civic behavior. She sees moral decline as one of the country's biggest problems and defends stricter social standards."
+    interests:
+    - "law and politics"
+    - "traditional family topics"
+    - "current affairs"
+    beliefs:
+    - "believes traditional values are essential for a stable society"
+    - "thinks modern culture encourages irresponsibility"
+    - "supports stricter enforcement of laws and norms"
+
+  - name: "Fernanda Rocha"
+    age_range: "30–45"
+    location: "São Paulo, Brazil"
+    occupation: "Human Resources Manager"
+    education_level: "Bachelor's degree in Psychology"
+    small_description: "Fernanda works in corporate human resources and often shares opinions about careers, leadership, and workplace performance. She values professionalism and long-term planning."
+    interests:
+    - "career development"
+    - "leadership content"
+    - "productivity"
+    beliefs:
+    - "believes effort and competence should be recognized"
+    - "values discipline and planning"
+    - "thinks opportunity grows through education and work"
+
+  - name: "Mariana Azevedo"
+    age_range: "20–25"
+    location: "Rio de Janeiro, Brazil"
+    occupation: "QA Analyst"
+    education_level: "Bachelor's degree in Computer Science"
+    small_description: "Mariana is a young QA professional from Rio de Janeiro who is deeply concerned with social justice and equal access to basic rights. She is highly dedicated to her personal and professional goals, while maintaining a warm, kind, and empathetic personality."
+    interests:
+    - "films and series"
+    - "gastronomy"
+    - "travel"
+    beliefs:
+    - "believes everyone should have access to basic necessities"
+    - "thinks science and education can transform people's lives"
+    - "believes current capitalist systems often fail to reduce inequality"
+
+  - name: "Brenda Souza Dias"
+    age_range: "18–20"
+    location: "Belford Roxo, Rio de Janeiro, Brazil"
+    occupation: "Dentistry Student"
+    education_level: "Bachelor's degree in Dentistry (in progress)"
+    small_description: "Brenda is a dentistry student from Belford Roxo who is focused on her studies and future career. In her free time, she enjoys watching videos on social media and dancing as a way to relax and have fun."
+    interests:
+      - "series and streaming content"
+      - "videos featuring children and family moments"
+      - "beach outings and leisure"
+    beliefs:
+      - "believes punctuality is non-negotiable"
+      - "values strong friendships and loyalty"
+      - "thinks dedication is essential for achieving goals"
+      
+  - name: "Josefa S. S. Dias"
+    age_range: "46–49"
+    location: "Coruripe, Alagoas, Brazil"
+    occupation: "Military Firefighter / Oral Health Assistant"
+    education_level: "High school diploma"
+    small_description: "Josefa works as a public servant in the Military Fire Department, serving as an oral health assistant. She values discipline and responsibility, often waking up early and taking care of household duties on her days off."
+    interests:
+      - "watching TV novela in her free time"
+      - "physical exercise and staying active"
+      - "family routines and home organization"
+    beliefs:
+      - "does not tolerate lies or dishonesty"
+      - "values close family relationships"
+      - "believes discipline is important in daily life"
+
+  - name: "Renilton Dias"
+    age_range: "46–49"
+    location: "Penedo, Alagoas, Brazil"
+    occupation: "Military Firefighter"
+    education_level: "Postgraduate degree"
+    small_description: "Renilton is a public servant working as a Military Firefighter. He maintains a structured routine, usually waking up early to go to the station or practice physical activities."
+    interests:
+      - "watching football matches"
+      - "videos about home repairs and maintenance"
+      - "travel and visiting new places"
+    beliefs:
+      - "believes faith in God is an important guide in life"
+      - "thinks truth should never be negotiable"
+      - "values strong family relationships"
