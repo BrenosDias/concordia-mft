@@ -1,0 +1,36 @@
+% Seção 3.2 — colar no capítulo de Metodologia.
+% Ajuste os rótulos (\subsection vs \subsubsection) conforme a classe do documento.
+
+\subsection{Experimento}
+\label{sec:experimento}
+
+O ambiente de simulação foi implementado com a biblioteca Concordia, utilizando o prefab de Game Master para mídias sociais assíncronas e o motor de execução paralela da mesma biblioteca. Cada execução reúne cinco agentes, um Game Master (GM) e um fórum digital que reproduz, de forma simplificada, a dinâmica de uma rede social baseada em publicações, respostas, votos e compartilhamentos. O GM coordena o ciclo de observação e ação de forma concorrente, enquanto o estado do fórum permanece centralizado e protegido para acesso simultâneo por múltiplas threads.
+
+Nesta configuração, o GM limita-se a funções de coordenação e registro: não emprega modelo de linguagem para interpretar intenções nem para redigir o conteúdo exibido no feed. As etapas de observação, resolução de ações, definição de quem pode agir, especificação do formato de resposta e verificação de término são encaminhadas a componentes programáticos. A inferência linguística concentra-se nos agentes, responsáveis por escolher, a cada iteração, uma única ação codificada em JSON.
+
+\subsubsection{Construção do Game Master e regras do fórum}
+\label{sec:gm-forum}
+
+O Game Master foi montado a partir do prefab destinado a simulações de mídia social assíncrona. Sua arquitetura articula o estado global do fórum, o módulo de resolução de ações, o módulo de observação personalizada por agente, o filtro de participantes elegíveis, a especificação fixa da instrução de ação e o critério de encerramento por inatividade. O estado global armazena publicações, respostas, contagem de votos e compartilhamentos, fila de notificações e registro sequencial de todas as tentativas de interação, dados empregados na análise posterior.
+
+O fórum adota um único espaço de identificadores para publicações e respostas. A estrutura da discussão permanece plana em relação à publicação de origem: toda resposta vincula-se ao post raiz correspondente, e respostas encadeadas a outras respostas incorporam, no texto final, um trecho citado da mensagem referenciada. O feed visível a cada agente restringe-se às dez publicações mais recentes e às respostas associadas a elas, de modo que conteúdos mais antigos deixam de aparecer na superfície de interação conforme o volume da discussão aumenta.
+
+O GM aceita exclusivamente respostas estruturadas em JSON que informem o tipo de ação e o autor. As ações previstas são a criação de nova publicação, a resposta a publicação ou resposta existente, o compartilhamento de post de primeiro nível, o voto positivo, o voto negativo e a omissão de engajamento. A resolução recupera a última ação proposta pelo agente na memória do Game Master e aplica regras determinísticas de validação: identificadores inexistentes produzem falha acompanhada de notificação ao agente; tentativa de compartilhar uma resposta em vez de um post é rejeitada; nova tentativa de compartilhar ou votar no mesmo item pelo mesmo agente é tratada como omissão por duplicidade; compartilhamentos bem-sucedidos podem ser divulgados aos demais participantes quando a opção de propagação está habilitada.
+
+A simulação encerra-se quando todos os agentes escolhem omitir o engajamento em três ciclos consecutivos, ou quando se atinge o limite de dez passos por execução, definido no motor. Antes do primeiro passo, insere-se uma publicação semente atribuída a uma conta de notícia em destaque, contendo título e corpo da matéria sorteada para aquele experimento; essa publicação constitui o post inicial da discussão. A instrução de ação enviada aos agentes combina o modelo padrão do prefab com uma política obrigatória de engajamento, que detalha em linguagem natural os critérios para compartilhar, votar, responder ou permanecer inerte, e estabelece que compartilhamento e voto positivo são incompatíveis com posturas de oposição ao conteúdo avaliado.
+
+\subsubsection{Construção dos agentes e instruções textuais}
+\label{sec:agentes-prompts}
+
+Cada agente foi construído por meio de rotina dedicada no notebook de experimentos. A entidade combina um bloco de identidade fixa, uma memória episódica em lista e um componente de atuação que agrega os contextos disponíveis antes de consultar o modelo de linguagem. O bloco de identidade permanece constante durante toda a execução; a memória episódica acumula eventos ao longo das rodadas; o componente de atuação formula a pergunta aberta que solicita a ação em JSON, prefixada pelo nome da persona.
+
+A instrução de identidade é gerada uma única vez por persona. Ela reúne os atributos demográficos e biográficos definidos no conjunto de personas (nome, faixa etária, localização, ocupação, interesses, crenças e descrição resumida), os escores nos cinco fundamentos morais obtidos previamente com o MFQ-30 em escala de zero a cinco, o enunciado da notícia do experimento apresentado como tópico já fixado na publicação inicial, heurísticas que relacionam cada tipo de ação à postura moral do personagem e regras de formato da resposta (objeto JSON único, identificadores limitados ao feed visível, compartilhamento restrito a posts de primeiro nível, um voto por item).
+
+Durante a simulação, o motor assíncrono repete, para cada agente, uma sequência padronizada. Primeiro verifica-se se a execução deve terminar. Em seguida define-se a elegibilidade do agente e entrega-se a instrução de ação com o nome da persona substituído no texto. O módulo de observação do Game Master compõe, de forma programática, o que o agente passa a “ver”: notificações pendentes sobre ações anteriores, resumo das novidades no feed desde a última rodada, contagem de votos e lista dos identificadores com os quais pode interagir. Essa observação registra-se na entidade imediatamente antes da geração da ação. O modelo de linguagem do agente produz então o JSON de interação, que o Game Master valida e materializa no estado do fórum.
+
+O texto efetivamente submetido ao modelo em cada decisão resulta da junção da instrução de identidade completa com a instrução de ação vigente naquela rodada. As novidades do fórum chegam ao agente pelo ciclo de observação do motor, imediatamente anterior a cada ato.
+
+\subsubsection{Desenho experimental}
+\label{sec:desenho-experimental}
+
+Cada execução sorteia um entre seis temas de notícias fictícias, cada um associado a um perfil de ativação nos fundamentos morais, uma entre três denominações de fórum (Rural News, Voz Conservadora e Voz Progressista) e um grupo de cinco personas extraído das quarenta do dataset. O sorteio dos grupos ocorre com embaralhamento aleatório ao longo de dez lotes de cinco personas, de modo a favorecer combinações variadas de perfis morais. O grupo interage de forma assíncrona até o critério de inatividade ou o limite de passos. Todas as tentativas de ação ficam registradas no log do fórum e exportam-se para arquivo JSONL, acompanhadas de metadados do experimento e de cada persona (vetores de fundamentos morais, ocupação e localização).
