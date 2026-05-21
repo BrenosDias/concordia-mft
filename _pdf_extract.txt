@@ -1,0 +1,303 @@
+﻿=== PAGE 23 ===
+2.2 Ambiente de Simula├º├úo de Agentes 9
+2.2 Ambiente de Simula├º├úo de Agentes
+Os ambientes de simula├º├úo, especialmente os Modelos Baseados em Agentes
+(MBA), representam um arcabou├ºo robusto para a compreens├úo e an├ílise de sistemas
+complexos (ZHANG et al., 2025). OsMBA se concentra em agentes individuais e
+suas intera├º├Áes dentro de um ambiente, onde os agentes s├úo heterog├¬neos e dotados
+de atributos, estados e regras de tomada de decis├úo distintas. Seus comportamentos
+se adaptam dinamicamente a fatores ambientais e contextuais, o que leva a fen├┤menos
+emergentes em todo o sistema.
+Historicamente, osMBA tem sido uma ferramenta inestim├ível para estudar fen├┤-
+menos intrincados que s├úo dif├¡ceis de observar diretamente no mundo real, facilitando
+a experimenta├º├úo, o teste de hip├│teses e a an├ílise de cen├írios em m├║ltiplos dom├¡nios.
+Mais recentemente, as capacidades de reproduzir conhecimento e comportamento
+semelhantes aos humanos dosLLMs t├¬m gerado grande interesse no uso de agentes
+com essa tecnologia para mimetizar comportamentos humanoides em v├írias ├íreas,
+incluindo auditorias de sistemas sociais, entretenimento, psicologia e direito (CHEN
+et al., 2024).
+Com a introdu├º├úo dasLLMs, o escopo dosMBA) se expandiu dramaticamente,
+absorvendo novas capacidades e evoluindo para o que ├® conhecido comoMBAG
+(ADORNETTO et al., 2024). OsAGs s├úo definidos como uma entidades digital
+que pode simular um comportamento humano veross├¡mil. Esses agentes replicam
+intera├º├Áes e personalidades semelhantes ├ás humanas, exibem habilidades cognitivas
+para racioc├¡nio, tomada de decis├úo e planejamento, e s├úo capazes de executar a├º├Áes
+n├úo predefinidas, indo al├®m da racionalidade estrita de modelos tradicionais. (CHEN
+et al., 2024).
+Por outro lado, o uso deLLMs em agentes tamb├®m acarreta o problema da
+alucina├º├úo, onde um agente pode gerar sa├¡das factualmente incorretas ou infunda-
+das(ADORNETTO et al., 2024). Essas alucina├º├Áes minam a credibilidade e podem
+produzir comportamentos incoerentes ou contextualmente irrelevantes. Al├®m da
+alucina├º├úo, osLLMs podem sofrer de inconsist├¬ncia(ABDULHAI et al., 2024). Por
+=== PAGE 24 ===
+2.3 O que ├® s├úo os Fundamentos Morais? 10
+exemplo, em avalia├º├Áes morais, eles podem exibir comportamento contradit├│rio
+e hip├│crita quando se comparam valores abstratos (como em question├írios) com
+julgamentos em cen├írios concretos. Essa inconsist├¬ncia pode ser exacerbada pela
+sensibilidade dos LLMs ├á formula├º├úo da pergunta (prompting) (SCHERRER et
+al., 2023), o que levanta a quest├úo de se o modelo mant├®m um arcabou├ºo moral
+consistente em diferentes contextos.
+O estudo aprofundado dessa inconsist├¬ncia revela que os agentes generativos
+falham no teste de coer├¬ncia moral, sendo caracterizados como hip├│critas morais
+(NUNES et al., 2024). Essa hipocrisia ├® definida como um conflito entre os valores
+abstratos declarados (por exemplo, noMFQ) e as avalia├º├Áes de a├º├Áes em cen├írios
+concretos. Embora modelos de ponta, como o GPT-4 e o Claude 2.1, demonstrem
+consist├¬ncia compar├ível ├á humana dentro de um ├║nico instrumento (MFQ), eles
+n├úo conseguem manter a coer├¬ncia entre esses diferentes n├¡veis de abstra├º├úo. Esse
+comportamento sugere que osLLMs podem estar engajados em mimetismo moral,
+reproduzindo padr├Áes lingu├¡sticos associados a conceitos morais sem, de fato, possuir
+o dom├¡nio conceitual necess├írio para aplicar consistentemente seus valores a situa├º├Áes
+concretas (SIMMONS, 2023).
+Al├®m disso, a sensibilidade dosLLMs ├á formula├º├úo da pergunta exige que as
+avalia├º├Áes usem m├║ltiplas varia├º├Áes deprompts para testar a robustez dos modelos,
+pois varia├º├Áes na sintaxe da quest├úo podem influenciar fortemente a distribui├º├úo de
+respostas. Experimentos como o de He et al. (2024b) mostram que, em casos em
+que osLLMs s├úo apresentados a not├¡cias sem umprompt que gere uma influ├¬ncia
+moral, a grande maioria dos trinta e seis modelos testados obteve respostas levemente
+alinhadas a pessoas liberais nos costumes.
+2.3 O que ├® s├úo os Fundamentos Morais?
+A complexidade dos pensamentos humanos e como eles nos levam a tomar
+determinadas atitudes sempre foi alvo de estudos na ├írea da psicologia e neuroci├¬ncia.
+Os valores morais s├úo um dos aspectos do enorme quebra-cabe├ºa da racionalidade
+=== PAGE 25 ===
+2.3 O que ├® s├úo os Fundamentos Morais? 11
+humana, al├®m de serem um dos respons├íveis por fazer de cada indiv├¡duo uma pessoa
+├║nica. A Teoria dos Fundamentos Morais foi proposta por Haidt e Joseph (2004),
+com o objetivo de sintetizar e quantificar os aspectos da moralidade humana.
+A primeira proposta apresentava cinco valores morais que estariam presentes em
+todas as comunidades pelo mundo, independentemente de momento hist├│rico ou
+cultura, sendo eles Cuidado/Dano, Justi├ºa/Trapa├ºa , Lealdade/Trai├º├úo , Autorida-
+de/Subvers├úo e Santidade/Degrada├º├úo. Cuidado, Justi├ºa, Lealdade, Autoridade e
+Santidade s├úo consideradas virtudes, enquanto seus opostos s├úo chamados de v├¡cios.
+ÔÇó Cuidado/Dano (Care/Harm): Este fundamento refere-se ├á evolu├º├úo de
+mecanismos psicol├│gicos para a prote├º├úo e cuidado de descendentes vulner├íveis.
+Manifesta-se como uma sensibilidade agu├ºada a sinais de sofrimento e necessi-
+dade em outros, gerando intui├º├Áes morais que condenam o dano e valorizam a
+compaix├úo. As virtudes associadas incluem a gentileza e o altru├¡smo, enquanto
+os v├¡cios correspondentes s├úo a crueldade e a agress├úo.
+ÔÇó Justi├ºa/Trapa├ºa (Fairness/Cheating): Originado do desafio adaptativo
+do altru├¡smo reciproco, este fundamento governa as intui├º├Áes sobre justi├ºa
+distributiva e procedural. Ele monitora a proporcionalidade entre contribui├º├Áes
+e resultados em intera├º├Áes sociais, gerando rea├º├Áes negativas ├á trapa├ºa e ao
+favorecimento indevido. As virtudes centrais s├úo a justi├ºa, a honestidade e
+a confiabilidade, com uma forte motiva├º├úo para a aplica├º├úo de puni├º├úo a
+transgressores.
+ÔÇó Lealdade/Trai├º├úo (Loyalty/Betrayal): Derivado da longa hist├│ria de com-
+peti├º├úo intergrupal da esp├®cie humana, este fundamento sustenta a forma├º├úo e
+manuten├º├úo de coaliz├Áes coesas. Ele promove virtudes como o patriotismo, o
+sacrif├¡cio pelo grupo e a vigil├óncia contra a trai├º├úo. As intui├º├Áes de lealdade
+s├úo ativadas por s├¡mbolos e marcadores de pertencimento grupal.
+ÔÇó Autoridade/Subvers├úo (Authority/Subversion): Estefundamentoemerge
+da necessidade de navegar e manter hierarquias sociais est├íveis e ben├®ficas. Ele
+gera intui├º├Áes sobre respeito, defer├¬ncia a autoridades leg├¡timas e a import├óncia
+=== PAGE 26 ===
+2.3 O que ├® s├úo os Fundamentos Morais? 12
+de tradi├º├Áes. As virtudes associadas s├úo a obedi├¬ncia e a lideran├ºa, enquanto a
+subvers├úo e a desordem s├úo percebidas como amea├ºas morais ├á estabilidade
+social.
+ÔÇó Santidade/Degrada├º├úo (Sanctity/Degradation): Com ra├¡zes evolutivas
+no sistema imunol├│gico comportamental e na emo├º├úo do nojo para evitar
+pat├│genos, este fundamento foi cooptado para o dom├¡nio simb├│lico. Ele sustenta
+a no├º├úo de que certas coisas s├úo sagradas e intoc├íveis, devendo ser protegidas
+da profana├º├úo e da degrada├º├úo. Gera intui├º├Áes sobre pureza, ascetismo e a
+eleva├º├úo espiritual, em oposi├º├úo ├á contamina├º├úo e ├á degrada├º├úo moral.
+Com o passar dos anos, o tema foi sendo melhor explorado por pesquisadores
+em busca de us├í-los para entender melhor o comportamento humano. A partir de
+pesquisas, foi percebido um padr├úo em que pessoas que se identificam como liberais
+t├¬m uma tend├¬ncia maior a expressar os fundamentos da Justi├ºa e do Cuidado,
+enquanto pessoas que se identificam como conservadoras tendem a expressar os
+cinco fundamentos de maneira muito mais equilibrada entre si (GRAHAM; HAIDT;
+NOSEK, 2009).
+Outro t├│pico muito debatido em cima dessa teoria, ├® se somente essas cinco
+virtudes s├úo capazes de explicar toda a complexidade da moral em seus diferentes
+contextosculturaisesociais, porissoforampropostasdiferentesadi├º├Áesemodifica├º├Áes
+a esse grupo visando representar melhor o pensamento de diferentes indiv├¡duos. O
+fundamento da Justi├ºa pode ter um significado amplo, visto que o senso de justi├ºa
+de cada pessoa pode variar bastante baseado em suas viv├¬ncias e cren├ºas. Uma
+forma de resolver esse problema ├® a divis├úo desse fundamento em Igualdade, que
+geralmente tem uma maior rela├º├úo com pessoas com posicionamentos mais ├á esquerda
+politicamente, e Proporcionalidade, que tem mais identifica├º├úo com pessoas mais
+inclinadas a posicionamentos mais ├á direita (ATARI; HAIDT, 2023).
+Diferentes virtudes foram consideradas e sugeridas para fazer parte desse grupo,
+mas para isso foram estabelecidas regras do que pode ser considerado um fundamento
+moral (GRAHAM et al., 2013). As candidatas devem seguir as seguintes exig├¬ncias:
+=== PAGE 27 ===
+2.4 Como ocorre a difus├úo de informa├º├Áes nas redes sociais? 13
+ÔÇó Ser uma caracter├¡stica comum em ju├¡zos de valor imparciais (feitos por tercei-
+ros);
+ÔÇó Estar ligado a rea├º├Áes emocionais autom├íticas;
+ÔÇó Possuir ampla dissemina├º├úo cultural, mesmo que n├úo seja universalmente
+encontrado;
+ÔÇó Apresentar evid├¬ncias de uma predisposi├º├úo inata;
+ÔÇó Ser sustentado por um modelo evolucion├írio robusto e j├í existente.
+Com esses pr├®-requisitos alguns candidatos foram propostos, como a Proprie-
+dade(ATARI; HAIDT, 2023), que est├í presente no comportamento humano desde
+o in├¡cio da vida em sociedade e que pode ser observado inclusive em animais. A
+honra ├® outro candidato muito forte, principalmente pela sua import├óncia em povos
+e culturas no Oriente M├®dio e em como ela trata de temas como reputa├º├úo familiar e
+orgulho, t├│picos que os outros fundamentos n├úo cobrem por completo.
+2.4 Como ocorre a difus├úo de informa├º├Áes nas redes sociais?
+As redes sociais revolucionaram a forma como as pessoas se comunicam e como
+informa├º├Áes e not├¡cias circulam pelo mundo. Essas plataformas n├úo apenas difundem
+um volume extraordin├írio de conte├║do, sendo amplamente utilizadas pelos meios
+de comunica├º├úo tradicionais, como tamb├®m reduziram as barreiras para a produ├º├úo
+de not├¡cias e tornaram mais t├¬nue a fronteira entre ve├¡culos de imprensa e usu├írios
+comuns (ZHENG et al., 2018). Esse novo modo de propagar as informa├º├Áes tem
+grande impacto em diversas ├íreas, desde a publicidade segmentada e sistemas de
+recomenda├º├úo de produtos, at├® ├á propaganda pol├¡tica e redes de opini├úo p├║blica.
+A velocidade e o alcance da propaga├º├úo de mensagens nas redes sociais s├úo influ-
+enciados por diversos fatores, sendo a qualidade do conte├║do e a rea├º├úo emocional
+dos usu├írios os dois principais. Zheng et al. (2018) concluiu que o conte├║do da
+mensagem ├® um fator de dissemina├º├úo mais forte do que a popularidade do reme-
+tente. Esta qualidade do conte├║do, refletida na probabilidade de compartilhamento,
+=== PAGE 28 ===
+2.5 A influ├¬ncia da moralidade na difus├úo de informa├º├Áes nas redes sociais14
+tem um limiar que afeta a sua capacidade de propaga├º├úo: se a probabilidade de
+reencaminhamento estiver acima desse limiar, a mensagem alcan├ºa rapidamente a
+dissemina├º├úo em massa, resultando em um fen├┤meno de transi├º├úo de fase onde as
+mensagens tendem a ser amplamente visualizadas ou quase inteiramente ignoradas.
+Surjatmodjo et al. (2024) constatou que not├¡cias falsas no Twitter se propagam
+seis vezes mais r├ípido do que not├¡cias reais e alcan├ºam mais pessoas. A dissemina├º├úo
+viral ├® impulsionada pela utiliza├º├úo da emo├º├úo. Conte├║do que desencadeia emo├º├Áes
+fortes, especialmente raiva e medo, tem maior probabilidade de ser compartilhado.
+Conte├║do moralizado temperado com emo├º├úo demonstrou ser mais viral em redes
+sociais, quando not├¡cias duvidosas s├úo apresentadas de uma forma que ├® coerente
+com as prefer├¬ncias existentes baseadas em valores, a comunidade as aceita mais
+facilmente e promove sua propaga├º├úo atrav├®s da partilha seletiva(IANDOLI SIMO-
+NETTA PRIMARIO, 2021). O discurso emocional ├® ativamente favorecido pelas
+redes sociais, o que facilita a argumenta├º├úo polarizada.
+A internet ├® um ambiente propenso ├á polariza├º├úo. A Polariza├º├úo de Grupo ├® uma
+din├ómicadisfuncionalnaqualosparticipantessetornammaisextremosnasuaposi├º├úo
+inicial ap├│s serem expostos a uma discuss├úo. Isso pode ser o resultado de homofilia, a
+tend├¬ncia de interagir socialmente com indiv├¡duos semelhantes, o que leva ├á forma├º├úo
+de bolhas de informa├º├úo, ou c├ómaras de eco, (IANDOLI SIMONETTA PRIMARIO,
+2021). Essas c├ómaras de eco refor├ºam cren├ºas preexistentes e a polariza├º├úo pol├¡tica.A
+polariza├º├úo tamb├®m pode ser produzida pela exposi├º├úo ├á diversidade, como quando
+fac├º├Áes opostas se confrontam para avan├ºar a sua pr├│pria agenda (argumenta├º├úo
+discursiva), refor├ºando a afilia├º├úoin-group e out-group(TALAMANCA; ARFINI,
+2022).
+2.5 A influ├¬ncia da moralidade na difus├úo de informa├º├Áes nas
+redes sociais
+Como apresentado anteriormente, diversos fatores influenciam a decis├úo de um
+usu├írio quanto ao compartilhamento de publica├º├Áes em redes sociais. Entre esses
+=== PAGE 29 ===
+2.5 A influ├¬ncia da moralidade na difus├úo de informa├º├Áes nas redes sociais15
+fatores, destaca-se a moralidade do indiv├¡duo e o enquadramento moral presente na
+mensagem da publica├º├úo. Nesse contexto, aMFT ├® frequentemente utilizada para
+quantificar a moralidade de indiv├¡duos e de conte├║dos, permitindo a identifica├º├úo de
+padr├Áes de comportamento, como quais fundamentos morais est├úo associados a uma
+maior propens├úo ao compartilhamento e quais perfis morais de usu├írios apresentam
+maior probabilidade de compartilhar determinados tipos de conte├║do.
+No artigo (BRADY et al., 2017), os autores analisaram um dataset com mais de
+560.000 publica├º├Áes na plataforma Twitter, relacionadas a temas pol├¡ticos polarizado-
+res, como controle de armas, casamento homoafetivo e mudan├ºas clim├íticas. Para a
+medir do conte├║do moral e emocional de cada publica├º├úo, foram utilizados dicion├írios
+validados que permitem identificar a frequ├¬ncia de termos classificados como morais,
+emocionais e moral-emocionais (TAUSCZIK; PENNEBAKER, 2010). A partir desses
+dados, foram aplicados modelos de regress├úo com o objetivo de estimar o impacto
+dessas categorias na taxa de compartilhamento das publica├º├Áes, medida por meio de
+retweets. Os resultados indicam que a presen├ºa de linguagem moral-emocional est├í
+associada ao aumento na difus├úo das mensagens. Al├®m disso, observa-se que esse
+efeito ocorre de forma mais intensa em intera├º├Áes entre indiv├¡duos com alinhamento
+ideol├│gico semelhante, sugerindo que a difus├úo de conte├║do moral est├í condicionada
+├á estrutura de grupos nas redes sociais.
+O estudo de (SAKELLARIOU; TRILLING; SCHOENBACH, 2023) investiga a
+rela├º├úo entre valores pessoais, conte├║do moral e compartilhamento de not├¡cias engano-
+sas em ambientes online. O experimento consistiu em um estudo quase-experimental
+com 132 participantes, nos quais os usu├írios foram expostos a capturas de tela de
+not├¡cias enganosas que ativavam os cinco dom├¡nios daMFT, apresentadas com dife-
+rentes n├¡veis de vi├®s comunicativo. Ap├│s a exposi├º├úo, os participantes responderam a
+question├írios que mensuravam valores pessoais, percep├º├úo de credibilidade, respostas
+emocionais e inten├º├úo de compartilhamento. Os dados foram analisados por meio
+de Modelagem de Equa├º├Áes Estruturais, com o objetivo de identificar rela├º├Áes entre
+essas vari├íveis.
+Os resultados indicaram que indiv├¡duos conservadores apresentam maior propen-
+=== PAGE 30 ===
+2.6 Concordia 16
+s├úo ao compartilhamento de not├¡cias enganosas, liberais est├úo associados ├á redu├º├úo
+desse comportamento. Al├®m disso, a percep├º├úo de credibilidade, em conjunto com a
+ativa├º├úo emocional, possui influencia direta na decis├úo de compartilhamento (SA-
+KELLARIOU; TRILLING; SCHOENBACH, 2023).
+Outro experimento que tamb├®m buscava entender a probabilidade de comparti-
+lhamento de not├¡cias falsas foi o (HE et al., 2024a), nele foi investigada a rela├º├úo
+entre enquadramentos baseados na MFT e o compartilhamento de desinforma├º├úo e
+mensagens corretivas sobre vacinas contra a COVID-19. O experimento foi conduzido
+com participantes expostos a conte├║dos estruturados com diferentes enquadramentos
+morais, cada um associado a fundamentos espec├¡ficos daMFT. Ap├│s a exposi├º├úo,
+os participantes avaliaram a credibilidade das mensagens e indicaram sua inten├º├úo
+de compartilhamento, permitindo a an├ílise do efeito dos enquadramentos morais no
+comportamento de difus├úo.
+Os resultados indicaram que os fundamentos morais exercem papel central na
+decis├úo de compartilhamento. Observa-se que mensagens enquadradas de acordo com
+fundamentos morais espec├¡ficos apresentam maior probabilidade de serem comparti-
+lhadas quando h├í alinhamento com o perfil moral do indiv├¡duo. Esse efeito ocorre
+tanto para desinforma├º├úo quanto para mensagens ver├¡dicas, indicando que a ativa├º├úo
+de fundamentos morais influencia a difus├úo independentemente da veracidade do con-
+te├║do(HE et al., 2024a). Al├®m disso, a percep├º├úo de credibilidade atua em conjunto
+com o enquadramento moral, mas os resultados indicam que o alinhamento moral ├®
+um dos principais fatores associados ao comportamento de compartilhamento.
+2.6 Concordia
+Concordia ├® uma biblioteca que foi desenvolvida para facilitar a constru├º├úo e
+o trabalho comMBAG em simula├º├Áes sociais (VEZHNEVETS et al., 2023). Os
+agentes generativos no Concordia utilizamLLMs para aplicar senso comum ├ás situa-
+├º├Áes, agir de maneira coerente ao comportamento humano, recordar conhecimento
+sem├óntico e realizar chamadas de Application Programming Interface (API) para
+=== PAGE 31 ===
+2.6 Concordia 17
+controlar tecnologias digitais. Ao contr├írio dosMBAs tradicionais, osMBAGs n├úo se
+limitam apenas a agentes que conversam; eles s├úo constru├¡dos para simular intera├º├Áes
+complexas de agentes em ambientes fundamentados, sejam f├¡sicos, sociais ou digitais.
+A arquitetura do Concordia emprega um padr├úo de intera├º├úo inspirado em jogos
+de RPG de mesa (role-playing games), onde a simula├º├úo ├® mediada por um agente
+especializado: o GM (VEZHNEVETS et al., 2023). OGM ├® respons├ível por simular
+o ambiente e o contexto das intera├º├Áes sociais. Os agentes expressam suas a├º├Áes
+descrevendo o que pretendem fazer em linguagem natural, e oGM traduz essas
+descri├º├Áes para implementa├º├Áes apropriadas. Em simula├º├Áes de um mundo f├¡sico,
+o GM verifica a plausibilidade f├¡sica das a├º├Áes. Em ambientes digitais, oGM pode
+gerenciar chamadas deAPI para integrar-se a ferramentas externas, como assistentes
+de IA gerais ou aplicativos digitais. Essa flexibilidade permite que oGM utilize
+qualquer t├®cnica de modelagem existente para simular as partes n├úo lingu├¡sticas da
+simula├º├úo, como fen├┤menos f├¡sicos, qu├¡micos ou financeiros.
+A funcionalidade do agente individual no Concordia ├® modular, inspirada em
+trabalhos anteriores, como Park et al. (2023). Os agentes produzem seu compor-
+tamento utilizando um sistema flex├¡vel de componentes que faz o interm├®dio entre
+as chamadas ao LLM e a recupera├º├úo de mem├│ria associativa. Esses componentes
+representam a "sociedade da mente"do agente, focando em aspectos relevantes como
+estado fisiol├│gico ou circunst├óncias financeiras, para gerar o texto de condiciona-
+mento. O agente possui uma mem├│ria de longo prazo, associativa, para registrar
+suas experi├¬ncias hist├│ricas, e uma mem├│ria de trabalho que cont├®m o contexto
+imediato para a previs├úo do pr├│ximo s├¡mbolo. O processo de tomada de decis├úo, que
+├® uma amostragem autorregressiva condicionada ao contexto, ├® guiado pela "l├│gica
+da adequa├º├úo"(MARCH; OLSEN, 2011), que sugere que as pessoas escolhem suas
+a├º├Áes respondendo a tr├¬s perguntas-chave:
+1. Que tipo de situa├º├úo ├® esta?
+2. Que tipo de pessoa sou eu?
+3. O que uma pessoa como eu faz em uma situa├º├úo como esta?
+=== PAGE 32 ===
+2.6 Concordia 18
+O GM inicia sua fun├º├úo gerando uma declara├º├úo de eventoet em resposta a
+cada a├º├úo at tentada por um agente. A gera├º├úo desta declara├º├úo ├® um processo
+estoc├ístico que utiliza uma LLM (p) e ├® condicionada pelo estado interno atual do
+GM (representado pelos seus componenteszt) e pela a├º├úo do agente. Formalmente,
+isso ├® representado pela Equa├º├úo (3):
+et Ôê╝ p(┬À | fe(zt), at) (2.1)
+Nesta formula├º├úo, at ├® a a├º├úo submetida pelo agente (descrita em linguagem
+natural, por exemplo, ÔÇ£Dorothy vai ao supermercadoÔÇØ). A fun├º├úofe formata o estado
+dos componentes doGM (que descrevem o estado do mundo, como a localiza├º├úo
+dos jogadores e o status das vari├íveis fundamentadas) para servir como contexto
+na consulta ao LLMp. O ato de condicionar explicitamente na a├º├úoat serve para
+enfatizar que oGM gera uma declara├º├úo de evento em resposta a cada a├º├úo de
+qualquer agente na simula├º├úo. Isso ├® uma distin├º├úo importante, pois um agente pode
+receber v├írias observa├º├Áes antes de decidir agir (VEZHNEVETS et al., 2023). Ap├│s
+a gera├º├úo, a declara├º├úo de eventoet ├® adicionada ├á mem├│ria associativa doGM para
+registrar o que aconteceu.
+Ap├│s registrar o eventoet em sua mem├│ria, oGM atualiza seus pr├│prios compo-
+nentes internos, seguindo a mesma l├│gica de atualiza├º├úo dos agentes. OGM, assim
+como os agentes generativos, ├® implementado usando componentes que intermediam
+as chamadas ao LLM e a recupera├º├úo da mem├│ria. O processo de atualiza├º├úo do
+GM (similar ├á Equa├º├úo (2) do agente) utiliza o LLM para sumarizar e raciocinar,
+garantindo que o estado interno doGM reflita as novas informa├º├Áes contidas no
+evento et. Depois desta atualiza├º├úo interna, oGM pode emitir observa├º├Áesoi,t+1 para
+os jogadores. A emiss├úo de observa├º├Áes para um jogadori ├® regida pela Equa├º├úo (4):
+oi,t+1 Ôê╝ p(┬À | fo(zt+1)) (2.2)
+Aqui, fo ├® uma fun├º├úo de formata├º├úo que usa o estado atualizado dos componentes
